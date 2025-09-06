@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Abdelrahman<span> Sherif</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#values">Values</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Abdelrahman Sherif</span></h1>
+            <h2>Machine Learning Engineer</h2>
+            <p>Building intelligent systems that solve real-world problems.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        <div class="hero-img">
+            <img src="imges/cover.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+               I’m a Machine Learning Engineer with a passion for transforming raw data into actionable insights — because data tells stories, and I’m here to listen.
+               Currently pursuing my studies at the University of Artificial Intelligence, I specialize in Machine Learning, Artificial Intelligence, SQL, and Data Structures. As a trainer at DEPI, I’ve also delivered both technical and non-technical projects, ranging from building ML models to soft skill development and mentoring.
+               Whether you're a startup needing your first ML prototype or an enterprise seeking scalable AI integration, I bring both technical precision and a human-centered approach to every project.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>AI</h3>
+                <p class="school">AI Faculty of El-Monifia University</p>
+                <p class="degree">Under graduated</p>
+                <p class="year">2022 - Present</p>
+                <p class="description">Focusing on Machine Learning, AI, and Data Structures</p>
+            </div>
+            
+            <!-- Add DEPI Card -->
+            <div class="education-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Technical/Non-Technical Trainer</h3>
+                <p class="school">Digital Egypt Pioneer Initiative (DEPI)</p>
+                <p class="degree">Professional Training</p>
+                <p class="year">2023 - Present</p>
+                <p class="description">Delivering technical and non-technical training in ML, AI, and soft skills development</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Pricing Section -->
+    <section id="services" class="services">
+        <h2>Services & Pricing</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Basic ML Solution</h3>
+                    <p class="price">$4.99<span>/project</span></p>
+                </div>
+                <ul class="features">
+                    <li><i class="fas fa-check"></i> Data Analysis & Preprocessing</li>
+                    <li><i class="fas fa-check"></i> Model Development</li>
+                    <li><i class="fas fa-check"></i> Basic Documentation</li>
+                    <li><i class="fas fa-check"></i> 1 Month Support</li>
+                </ul>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="pricing-header">
+                    <h3>Advanced ML Solution</h3>
+                    <p class="price">$9.99<span>/project</span></p>
+                </div>
+                <ul class="features">
+                    <li><i class="fas fa-check"></i> Complete Data Pipeline</li>
+                    <li><i class="fas fa-check"></i> Advanced Model Architecture</li>
+                    <li><i class="fas fa-check"></i> Model Deployment</li>
+                    <li><i class="fas fa-check"></i> 3 Months Support</li>
+                    <li><i class="fas fa-check"></i> Performance Optimization</li>
+                </ul>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Enterprise Solution</h3>
+                    <p class="price">Custom<span>/project</span></p>
+                </div>
+                <ul class="features">
+                    <li><i class="fas fa-check"></i> Custom ML Solutions</li>
+                    <li><i class="fas fa-check"></i> End-to-End Implementation</li>
+                    <li><i class="fas fa-check"></i> MLOps Setup</li>
+                    <li><i class="fas fa-check"></i> Priority Support</li>
+                    <li><i class="fas fa-check"></i> Team Training</li>
+                </ul>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <!-- Machine Learning -->
+            <div class="skill-card">
+                <i class="fas fa-brain"></i>
+                <h3>Machine Learning</h3>
+                <p>Scikit-learn, TensorFlow, PyTorch, XGBoost</p>
+            </div>
+            
+            <!-- Deep Learning -->
+            <div class="skill-card">
+                <i class="fas fa-network-wired"></i>
+                <h3>Deep Learning</h3>
+                <p>Neural Networks, CNN, RNN, LSTM, Transformers</p>
+            </div>
+            
+            <!-- Programming -->
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Programming</h3>
+                <p>Python, R, SQL, Java, C++</p>
+            </div>
+            
+            <!-- Data Processing -->
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Data Processing</h3>
+                <p>Pandas, NumPy, PySpark, Dask</p>
+            </div>
+            
+            <!-- Data Visualization -->
+            <div class="skill-card">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Data Visualization</h3>
+                <p>Matplotlib, Seaborn, Plotly, Tableau</p>
+            </div>
+            
+            <!-- MLOps -->
+            <div class="skill-card">
+                <i class="fas fa-cogs"></i>
+                <h3>MLOps</h3>
+                <p>Docker, Kubernetes, MLflow, DVC</p>
+            </div>
+            
+            <!-- Cloud Platforms -->
+            <div class="skill-card">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Platforms</h3>
+                <p>AWS SageMaker, Google Cloud AI, Azure ML</p>
+            </div>
+            
+            <!-- Version Control -->
+            <div class="skill-card">
+                <i class="fas fa-code-branch"></i>
+                <h3>Version Control</h3>
+                <p>Git, GitHub, GitLab</p>
+            </div>
+            
+            <!-- Model Deployment -->
+            <div class="skill-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Model Deployment</h3>
+                <p>Flask, FastAPI, TensorFlow Serving</p>
+            </div>
+            
+            <!-- Statistics -->
+            <div class="skill-card">
+                <i class="fas fa-square-root-alt"></i>
+                <h3>Statistics</h3>
+                <p>Probability, Hypothesis Testing, A/B Testing</p>
+            </div>
+            
+            <!-- Computer Vision -->
+            <div class="skill-card">
+                <i class="fas fa-eye"></i>
+                <h3>Computer Vision</h3>
+                <p>OpenCV, YOLO, Image Processing</p>
+            </div>
+            
+            <!-- NLP -->
+            <div class="skill-card">
+                <i class="fas fa-language"></i>
+                <h3>Natural Language Processing</h3>
+                <p>NLTK, spaCy, Transformers, BERT</p>
+            </div>
+
+            <!-- Development Tools -->
+            <div class="skill-card">
+                <i class="fas fa-tools"></i>
+                <h3>Development Tools</h3>
+                <p>Jupyter, VS Code, Google Colab</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="imges/titanic.jpg" alt="Titanic Dataset">
+                <h3>Titanic Survival Prediction</h3>
+                <p>Binary classification model predicting passenger survival using features like class, age, gender, and fare. Dataset: 891 records.</p>
+                <a href="https://github.com/BedooShery04/Titanic-Dataset" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="imges/dataset-cover.jpg" alt="California Housing">
+                <h3>California Housing Prediction</h3>
+                <p>Regression model predicting house values using features like income, age, rooms, and location. Dataset: 20,640 homes.</p>
+                <a href="https://github.com/BedooShery04/House-California-Dataset" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="values">
+        <h2>My Values</h2>
+        <div class="values-grid">
+            <!-- Existing values -->
+            <div class="value-card">
+                <i class="fas fa-check-circle"></i>
+                <h3>Precision</h3>
+                <p>Build models that don't just work but excel in accuracy and reliability.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-balance-scale"></i>
+                <h3>Ethical AI</h3>
+                <p>Design for fairness, transparency, and privacy in all AI solutions.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Impact</h3>
+                <p>Solve real problems, not just theoretical ones, with measurable outcomes.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-users"></i>
+                <h3>Collaboration</h3>
+                <p>Work effectively with teams to create better solutions through diverse perspectives.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovation</h3>
+                <p>Stay current with cutting-edge technologies and creative problem-solving approaches.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Reliability</h3>
+                <p>Deliver robust, scalable solutions that stand the test of time.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-comments"></i>
+                <h3>Clear Communication</h3>
+                <p>Translate complex technical concepts into clear, actionable insights.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-tasks"></i>
+                <h3>Quality First</h3>
+                <p>Maintain high standards in code, documentation, and model performance.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data-Driven</h3>
+                <p>Make decisions based on empirical evidence and measurable results.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-clock"></i>
+                <h3>Efficiency</h3>
+                <p>Optimize solutions for both performance and resource utilization.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/BedooShery04" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abdel-rahman-sherif-3a4975357/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2023 ML Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
